@@ -10,6 +10,83 @@
     </head>
 
     <body>
-        
+        <header>
+            <h1>Formulaire d'inscription</h1>
+        </header>
+        <main>
+            <div id="contenaire_identite">
+                <fieldset>
+                    <legend>Identité</legend>
+                    <!-- partie bouton radio -->
+                    <div class="contenaire-btn-radio">
+                        <div class="homme">
+                            <input type="radio" id="homme" name="nom" value="" checked/>
+                            <label for="homme" name="nom">Homme</label>
+                        </div>
+                        <div class="femme">
+                            <input type="radio" id="femme" name="nom" value="" checked/>
+                            <label for="femme" name="nom">Femme</label>
+                        </div>
+                    </div>
+                    <!-- partie formulaire identité -->
+                    <div class="contenaire-formulaire-id">
+                        <label for="nom">
+                            Nom: <input type="text" name="" id="nom">
+                        </label>
+                        <label for="prenom">
+                            Prénom: <input type="text" name="" id="nom">
+                        </label>
+                        <label for="email">
+                            E-mail: <input type="text" name="" id="nom">
+                        </label>
+                    </div>
+                </fieldset>
+            </div>
+
+
+                     <!-- partie formulaire facturation -->
+            <div id="contenaire_adresse">               
+                <fieldset>
+                    <legend>Adresse de facturation</legend>
+                    <div class="adresse">
+                        <label for="rue">
+                            Rue: <input type="text" name="" id="rue_facturation">
+                        </label> 
+                        <label for="ville">
+                            Ville: <input type="text" name="" id="ville_facturation">
+                        </label> 
+                        <label for="cdepostal">
+                            Code postal: <input type="text" name="" id="code_facturation">
+                        </label> 
+                    </div>
+                 </fieldset>
+            </div>
+
+                    <!--partie formulaire livraison-->
+            <div id="livraison">
+                <fieldset>
+                    <legend>Adresse de livraison</legend>
+                    <div class="livraison">
+                        <label for="rue">
+                            Rue: <input type="text" name="" id="rue_livraison">
+                        </label> 
+                        <label for="ville">
+                            Ville: <input type="text" name="" id="ville_livraison">
+                        </label> 
+                        <label for="cdepostal">
+                            Code postal: <input type="text" name="" id="code_livraison">
+                        </label> 
+                    </div>
+                </fieldset>
+            </div>
+
+                     <!-- bouton valider -->
+            <div id="btn-valider">
+                <button class="valider" type="button">Valider</button>
+            </div>
+        </main>
+        <footer>
+            <h2>Sabri CHAFROUD - @Code of the day - 2023</h2>
+        </footer>
     </body>
 </html>
