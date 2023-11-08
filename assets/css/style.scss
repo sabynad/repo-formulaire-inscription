@@ -1,0 +1,50 @@
+*{
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-size: 2rem;
+    color: red;
+    text-align: center;
+}
+
+main{
+    margin: auto 20rem ;
+}
+
+.contenaire-btn-radio{  
+    display: flex; 
+    justify-content: center;
+}
+
+.homme{
+    padding-right: 1rem;
+}
+
+.contenaire-formulaire{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 1rem;
+    line-height: 2rem;
+}
+
+#btn-valider{
+    text-align: center;
+    margin-top: 1rem;
+}
+
+
+h2{
+    margin-top: 2rem;
+    text-align: center;
+    background-color:gray;
+    color: white;
+}
+
+li{
+    list-style: none;
+}

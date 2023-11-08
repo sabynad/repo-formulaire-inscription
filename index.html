@@ -24,20 +24,20 @@
                             <label for="homme" name="nom">Homme</label>
                         </div>
                         <div class="femme">
-                            <input type="radio" id="femme" name="nom" value="" checked/>
+                            <input type="radio" id="femme" name="nom" value=""/>
                             <label for="femme" name="nom">Femme</label>
                         </div>
                     </div>
                     <!-- partie formulaire identité -->
-                    <div class="contenaire-formulaire-id">
+                    <div class="contenaire-formulaire">
                         <label for="nom">
                             Nom: <input type="text" name="" id="nom">
                         </label>
                         <label for="prenom">
-                            Prénom: <input type="text" name="" id="nom">
+                            Prénom: <input type="text" name="" id="prenom">
                         </label>
                         <label for="email">
-                            E-mail: <input type="text" name="" id="nom">
+                            E-mail: <input type="text" name="" id="mail">
                         </label>
                     </div>
                 </fieldset>
@@ -48,10 +48,13 @@
             <div id="contenaire_adresse">               
                 <fieldset>
                     <legend>Adresse de facturation</legend>
-                    <div class="adresse">
+                    <div class="contenaire-formulaire">
                         <label for="rue">
-                            Rue: <input type="text" name="" id="rue_facturation">
+                            Rue: <input type="text" name="" id="rue_facturation">                       
                         </label> 
+                        <!-- creer un ul pour affciher une liste sur choix adress -->
+                        <ul></ul>
+
                         <label for="ville">
                             Ville: <input type="text" name="" id="ville_facturation">
                         </label> 
@@ -59,17 +62,19 @@
                             Code postal: <input type="text" name="" id="code_facturation">
                         </label> 
                     </div>
+                    
                  </fieldset>
             </div>
 
                     <!--partie formulaire livraison-->
-            <div id="livraison">
+            <div id="contenaire_livraison">
                 <fieldset>
                     <legend>Adresse de livraison</legend>
-                    <div class="livraison">
+                    <div class ="contenaire-formulaire">
                         <label for="rue">
                             Rue: <input type="text" name="" id="rue_livraison">
                         </label> 
+                        
                         <label for="ville">
                             Ville: <input type="text" name="" id="ville_livraison">
                         </label> 
