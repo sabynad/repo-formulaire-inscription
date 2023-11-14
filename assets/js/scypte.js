@@ -56,7 +56,7 @@ for (let t = 0; t < result.features.length; t++){
    champs.value = result.features[t].properties.name
    champsVille.value = result.features[t].properties.city
    champsPostal.value = result.features[t].properties.postcode
-   }
+   }   
    
    // traitement ul supprimé la liste une fois choix effectuer
    liste.innerText = "";

@@ -45,6 +45,18 @@ h2{
     color: white;
 }
 
+ul{
+    overflow: auto,
+    max-height: 200px;
+}
+ul:not(:empty){
+    border: 1px solid black;
+    background-color: antiquewhite;
+}
+ul:empty {
+    border: none;
+}
+
 li{
     list-style: none;
 }
